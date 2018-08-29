@@ -1,0 +1,6 @@
+buku : Analisis Bahasa
+penulis : Samsuri
+penerbit : Erlangga
+ebook : tidak tersedia
+terbitan : 1994
+kondisi : beli bekas, fotocopy atau pinjam. tidak tersedia versi terbaru

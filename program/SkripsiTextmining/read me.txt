@@ -1,0 +1,38 @@
+Sistem ini dibuat menggunakan bahasa pemrograman java dengan tools netbeans
+Saran versi java : 1.8
+
+Tools external :
+1. library : apache poi versi 3.14 (poi 3.14) (googling sendiri, file nya cukup besar)
+2. aplikasi TIKSentence TreeMaker (terdapat pada file rar : Workshop Pohon Sintaks.rar)
+
+Data : 
+- Seluruh data yang saya gunakan pada tugas akhir ini terdapat pada folder dataset, dan untuk seluruh data hasil survey atau yang berkaitan dengan itu ada pada folder dataset > backup.
+
+=======================
+Cara menggunakan :
+1. Buka project di netbeans
+2. Running project atau running file kelasTest.java
+3. Sistem akan mengeluarkan hasil berupa aturan-aturan yang telah diperbaiki
+4. cek DetailHasil.xlsx untuk melihat hasil macam-macam aturan frasa pada data uji (hasil dari sistem, hasil lower bound (LB), hasil data uji awal, hasil responden dan hasil data uji yang valid)
+
+=======================
+Penjelasan DetailHasil.xlsx :
+1. Nama Kalimat (A1) = daftar setiap kalimat data uji (satu kalimat memiliki banyak aturan frasa).
+2. Aturan Valid (B1) = data aturan frasa dari data uji yang valid. Data uji ini yang akan jadi acuan untuk menentukan aturan frasa data yang diujikan benar atau salah.
+3. Aturan Edited (C1) = data aturan frasa dari data uji yang mana data uji ini yang dimasukan kedalam sistem untuk proses pengujian, serta data ini yang diujikan kepada responden.
+4. Aturan yang Disarankan (D1) = data aturan frasa hasil data uji edited (C1) yang telah dimasukan kedalam sistem, dan telah dicek setiap label jenis frasanya (hasil dari sistem).
+5. dataUjiAwal (E1) = sama seperti (C1), namun digunakan untuk mengetahui nilai akurasi, recall, precision dan F1 score dari data uji awal (tidak terlalu penting atau optional).
+6. LB (Lower Bound) (F1) = data aturan frasa dengan kondisi dimana label aturan frasa yang ditanyakan pada survey bernilai salah semua (detail data dapat dilihat pada : dataset > backup > survey).
+7. orang1 (G1) - orang9 (R1) = data aturan frasa data uji yang mana responden (orang1 - orang12) telah mengisi sebelumnya (detail data dapat dilihat pada : dataset > backup > survey)
+8. valid (S1) = data aturan frasa dengan kondisi dimana seluruh data uji benar (untuk upper bound) (tidak terlalu penting atau optional).
+
+=======================
+Cara perubahan data :
+Jika ingin mengubah atau menambah data uji atau data latih, pastikan :
+1. Memasukan data latih kedalam folder "training" dan atau data uji kedalam folder "dataset".
+2. Pastikan di program sudah diset untuk membaca file-file tersebut
+3. Untuk data uji, buat bentuk CFG nya terlebih dahulu (running createCFG.java jika perlu).
+4. Untuk data uji, beri nilai untuk setiap aturan CFGnya (sebenarnya tidak perlu melakukan langkah ini, namun saya tidak sempat mengubah langkah no.4 ini, maaf /.\ ).
+5. Pastikan data uji yang valid telah terbuat (dengan melakukan no.3 dan no.4).
+6. Running kembali project.
+7. Selesai.

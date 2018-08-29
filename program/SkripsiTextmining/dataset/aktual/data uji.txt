@@ -1,0 +1,329 @@
+===== Kalimat 1=====
+NP -> VBI NNO _1
+VP -> NNO NNO _1
+PP -> PPO VP _1
+NP -> NP PP _1
+PP -> PPO NP _1
+PP -> PP _1
+NP -> NNO NNO _1
+NP -> NNO NNO _1
+NP -> NNO NNO _1
+NP -> NP NP NP _1
+AdjP -> ADV ADJ _1
+AdjP -> ADV AdjP _1
+AdjP -> ADV ADJ _1
+AdjP -> AdjP AdjP _1
+S -> PP NP AdjP _1
+===== Kalimat 2=====
+NP -> NNO NNO _1
+NP -> NP _1
+NP -> NNO NP _1
+NP -> NNO NNO _1
+NP -> NP NP _1
+PP -> VBT VBT _1
+PP -> PPO PP _1
+NP -> NNO ADJ _1
+NP -> NUM NNO _1
+PP -> PPO NP _1
+NP -> NNO NNO _1
+NP -> NP _1
+NP -> NNO NNO _1
+NP -> NNO NNO _1
+NP -> NP NP _1
+SBAR -> NP NP _1
+VP -> VBT SBAR _1
+PP -> PPO VP _1
+PP -> PP PP _1
+NP -> NP PP _1
+VP -> VBL NP _1
+S -> NP PP VP _1
+===== Kalimat 3=====
+NP -> NNO NNO _1
+PP -> PPO NNO _1
+NP -> NP PP _1
+VP -> ADK VBI _1
+PP -> PPO NNO _1
+NP -> NNO ADJ _1
+CP -> PPO NP _1
+PP -> PP CP _1
+VP -> VP PP _1
+VP -> NNO ADJ _1
+NP -> NNO NNO _1
+PP -> PPO NP _1
+NP -> NUM NNO _1
+PP -> PPO NP _1
+PP -> PP PP _1
+NP -> VP PP _1
+PP -> PPO NP _1
+S -> NP VP PP _1
+===== Kalimat 4=====
+NP -> NNO NNO _1
+NP -> NP NNP _1
+NP -> LBR NNO RBR _1
+NP -> NP NP _1
+NP -> NNO NNO _1
+NP -> NUM NP _1
+CP -> PPO NP _1
+NP -> NUM NNO _1
+NP -> NP NUM _1
+NP -> NNO NP _1
+PP -> PPO NP _1
+PP -> CP PP _1
+NP -> NUM NNO _1
+NP -> NP NNO _1
+NP -> NNO NNO _1
+NP -> NP NNO _1
+NP -> NNO NP _1
+NP -> NP NP _1
+VP -> ADK VBI _1
+NP -> NUM NNO _1
+NP -> NNO NNO _1
+NP -> NP NNO _1
+NP -> NNO NNO _1
+NP -> NP NP _1
+NP -> NP NP _1
+PP -> PPO NP _1
+NP -> NNO NNO _1
+NP -> NP ART _1
+SBAR -> NP VP PP NP _1
+SBAR -> CCN SBAR _1
+S -> NP VBT PP SBAR _1
+===== Kalimat 5=====
+NP -> NNO ADJ _1
+NP -> NUM NNO _1
+NP -> NP PRN _1
+PP -> NP NP _1
+VP -> ADK VBP _1
+S -> PP VP _1
+===== Kalimat 6=====
+NP -> NNO NNO _1
+NP -> NNO NP _0
+RPN -> PRR ADJ _1
+NP -> NP RPN _1
+VP -> ADV VBP _1
+NP -> NNO ADJ _1
+NP -> NP NNO _1
+NP -> NNP NNP _1
+NP -> NP NP _1
+NP -> NUM NP _1
+PP -> PPO NP _1
+VP -> VP VBP PP _0
+VP -> VBT NNO _1
+PP -> PPO VP _1
+S -> NP VP PP _1
+===== Kalimat 7=====
+NP -> NNO PRN _1
+NP -> NNO NUM _1
+NP -> NP NNO _1
+PP -> PPO NP _1
+NP -> NUM NNO _1
+RPN -> NNO NP _1
+PP -> PPO RPN _1
+PP -> PP PP _1
+NP -> NNO NNO _1
+NP -> NNO NP _1
+NP -> NP _0
+NP -> NNO NNO _1
+NP -> NNO NNP _1
+NP -> NP NP _1
+NP -> NUM NP _1
+NP -> NP NP _1
+PP -> PPO NP _1
+NP -> NNO NNO _1
+NP -> NNO NNP _1
+NP -> NP NP _1
+NP -> NNO NP _1
+NP -> NNO NNO _1
+PP -> PPO NP _1
+NP -> NP PP _1
+S -> NP VBT PP PP NP _1
+===== Kalimat 8=====
+NP -> NNO NNO _1
+NP -> NNO PRN _1
+NP -> NNO NNO _1
+NP -> NNO NP _1
+NP -> NUM NP _1
+NP -> NNO NNO _1
+NP -> NNO NNO _1
+NP -> NP NP _1
+PP -> PPO NP _1
+PP -> NP PP _0
+PP -> PPO PP _1
+VP -> VBI PP _1
+SBAR -> NP VP _0
+CP -> CCN SBAR _1
+S -> NP VBT CP _1
+===== Kalimat 9=====
+NP -> NNO NNO _1
+NP -> NP PRN _1
+VP -> NEG VBI _0
+SBAR -> NP VP _1
+NP -> NNO NNO _1
+NP -> NP PRK _1
+VP -> NEG VBP _1
+SBAR -> NP VP _1
+S -> SBAR SBAR _1
+===== Kalimat 10=====
+NP -> NNO NNO _1
+NP -> NNO NNO _1
+NP -> NP NNO _1
+NP -> NP _1
+NP -> NP NNO _1
+VP -> VBL NP _1
+AdvP -> NEG VBT _0
+NP -> NNO NNO _1
+VP -> AdvP NP _1
+CP -> VP VP _1
+S -> NP CP _1
+===== Kalimat 11=====
+NP -> NNO NNO _1
+PP -> PPO NNO _1
+NP -> NNO NNO _1
+PP -> PP NP _1
+SBAR -> NP VBT PP _1
+PP -> PPO NNO _1
+S -> SBAR PP NNO VBT _1
+===== Kalimat 12=====
+NP -> NNO NNO _1
+NP -> NNO NNO _1
+NP -> NP PRN _1
+NP -> VBT NP _1
+PP -> PPO NNO _1
+VP -> ADV VBT _1
+VP -> VP NNO _1
+VP -> NP PP VP _1
+S -> NP VP _1
+===== Kalimat 13=====
+NP -> NNO NUM _1
+PP -> PPO NP _1
+PP -> PP _1
+NP -> NNO NNO _1
+NP -> NP NNO _1
+NP -> NNO NP _1
+VP -> VBP VBI _1
+RPN -> PRR VP _0
+NP -> NP RPN _1
+PP -> PPO NP _1
+NP -> NNO PP _1
+PP -> PPO NP _1
+S -> NNO VBP PP PP _1
+===== Kalimat 14=====
+NP -> NNO NNO _1
+PP -> PPO NP _1
+PP -> PP _1
+NP -> NNO NNO _1
+NP -> NNO PRK _1
+VP -> VBT NP _1
+NP -> NNO ADJ _1
+PP -> PPO NP _1
+VP -> VP PP _1
+SBAR -> PP NP VP _0
+NP -> NNO NNO _1
+VP -> VBI VBP _1
+SBAR -> NP VP _1
+S -> SBAR CSN SBAR _1
+===== Kalimat 15=====
+VP -> ADV VBI _1
+SBAR -> PRN VP _1
+NP -> NNO ART _1
+SBAR -> SBAR NP VBT _0
+NP -> NNO NNO _1
+NP -> NP PRN _1
+CP -> NNO NNO _0
+NP -> KUA NNO _1
+VP -> ADK VBT _1
+NP -> NNO PRK _1
+VP -> VP NP _1
+RPN -> PRR VP _1
+NP -> NP RPN _1
+PP -> PPO NP _1
+NP -> CP PP _1
+PP -> PPO NP _1
+NP -> NP PP _1
+SBAR -> SBAR NP _1
+NP -> NNP NNO _1
+NP -> NNO NP _1
+NP -> NP _1
+NP -> NNO _1
+NP -> NNO NNO _1
+NP -> NP NP _1
+NP -> NP NP _1
+S -> SBAR VBI NP _1
+===== Kalimat 16=====
+VP -> ADV VBI _1
+NP -> NNO NNO _1
+NP -> NNO NNO _1
+NP -> NP NP _1
+NP -> KUA NP _1
+PP -> PPO NP _1
+NP -> NNO PP _1
+VP -> VBT NP _1
+PP -> PPO VP _1
+VP -> PRN VP PP _1
+NP -> NNO ART _1
+VP -> ADK VBP _1
+CP -> VP VBP _1
+PP -> PPO ADJ _1
+VP -> CP PP _1
+SBAR -> NP VP _1
+SBAR -> VP SBAR _1
+S -> PRN VBT SBAR _1
+===== Kalimat 17=====
+VP -> NEG VBP _1
+NP -> NNO ADJ _1
+NP -> NNO PRN _1
+PP -> PPO NP _1
+NP -> NP PP _0
+NP -> PRI NP _1
+S -> VP NP _1
+===== Kalimat 18=====
+NP -> NNO NNO _1
+NP -> NNO NNO _1
+NP -> NP NP _1
+NP -> NNO ART _1
+VP -> ADK ADJ ADV _1
+AdvP -> ADV ADJ _1
+VP -> VP AdvP _1
+NP -> NNO NNO _1
+PP -> PPO NNO _1
+VP -> VBT PP _1
+PP -> PPO VBP _1
+VP -> VP PP _1
+VP -> PRR VP _1
+NP -> NP VP _1
+NP -> NNO NP _1
+VP -> VP NP _1
+S -> NP NP VP _1
+===== Kalimat 19=====
+NP -> NNP NNO _1
+NP -> NP NNO _1
+NP -> NNP NP _1
+NP -> LBR NNO RBR _1
+NP -> NP NP _1
+NP -> NNO NP _1
+NP -> NUM NP _0
+NP -> NP _1
+VP -> VBT NNO _1
+VP -> VP _1
+RPN -> PRR VP _1
+NP -> NP RPN _1
+NP -> NNO PRN _1
+NP -> NNO NNO _1
+PP -> PPO NNO _1
+NP -> NP PP _1
+PP -> PPO NP _1
+NP -> NP PP _1
+VP -> VBT NP _1
+S -> NP VP _1
+===== Kalimat 20=====
+NP -> NNO NNO _1
+NP -> NNO NUM _1
+PP -> PPO NP _1
+NP -> NNO PP _1
+SBAR -> NP _0
+NP -> NUM SBAR _1
+VP -> VBL NP _1
+SBAR -> NP VP _1
+SBAR -> CCN SBAR _1
+VP -> VBT SBAR _1
+S -> PRN VP _1
